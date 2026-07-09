@@ -65,7 +65,7 @@ def ejecutar_credit_score():
                 # Variable de Control: Frecuencia de uso anual
                 _count("id_transaccion").alias("frecuencia_uso")
             )
-            # Variable 2: Volumen neto financiero (Ingresos operacionales vs Egresos operacionales)
+            # Variable 2: Volumen neto financiero (Ingresos vs Egresos)
             .withColumn(
                 "volumen_total_ingresos_vs_egresos", 
                 col("total_ingresos") - col("total_egresos")
