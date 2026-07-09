@@ -12,13 +12,18 @@ Este proyecto representa el escalamiento y evolución de una plataforma Fintech 
 
 │
 ▼  (Ingesta mediante JDBC / PySpark)
+
 [Data Lakehouse: Arquitectura Medallion (Storage/)]
 
 ├── Layer 1: Bronze (Ingesta Inmutable en Parquet)
+
 ├── Layer 2: Silver (Limpieza, Gobierno y Data Masking)
+
 └── Layer 3: Gold   (Data Marts de KPI y Predicciones de ML)
+
 │
 ▼
+
 [Machine Learning: PySpark MLlib (Random Forest)] ──> Inferencia y Líneas de Crédito
 
 
