@@ -1,0 +1,1566 @@
+2026-07-07 19:15:33,334 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-07 19:15:33,335 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-07 19:17:52,488 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-07 19:17:52,488 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-07 19:17:52,637 [INFO] (main.py): Iniciando inyección en bloques
+2026-07-07 19:18:01,588 [INFO] (main.py): Fase Transaccional completada: Base de datos poblada exitosamente.
+2026-07-07 19:18:01,589 [INFO] (main.py): Ejecutando el pipeline del Data Lakehouse
+2026-07-07 19:18:01,592 [ERROR] (main.py): Error crítico en el flujo de ejecución: No module named 'pyspark'
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\main.py", line 38, in ejecutar_pipeline_fintech
+    import pipeline_lakehouse
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 5, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+2026-07-07 19:18:01,593 [INFO] (main.py): Conexión con el contenedor Docker cerrada de forma segura.
+2026-07-07 19:18:01,593 [INFO] (main.py): === FIN DEL PROCESO UNIFICADO ===
+2026-07-07 19:28:33,709 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-07 19:28:33,709 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-07 19:28:33,739 [INFO] (main.py): Iniciando inyección en bloques
+2026-07-07 19:28:42,664 [INFO] (main.py): Fase Transaccional completada: Base de datos poblada exitosamente.
+2026-07-07 19:28:42,664 [INFO] (main.py): Ejecutando el pipeline del Data Lakehouse
+2026-07-07 19:28:43,391 [ERROR] (main.py): Error crítico en el flujo de ejecución: module 'pipeline_lakehouse' has no attribute 'ejecutar_lakehouse'
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\main.py", line 39, in ejecutar_pipeline_fintech
+    pipeline_lakehouse.ejecutar_lakehouse()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'pipeline_lakehouse' has no attribute 'ejecutar_lakehouse'
+2026-07-07 19:28:43,392 [INFO] (main.py): Conexión con el contenedor Docker cerrada de forma segura.
+2026-07-07 19:28:43,392 [INFO] (main.py): === FIN DEL PROCESO UNIFICADO ===
+2026-07-07 19:30:31,417 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-07 19:30:31,418 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-07 19:30:31,445 [INFO] (main.py): Iniciando inyección en bloques
+2026-07-07 19:30:40,382 [INFO] (main.py): Fase Transaccional completada: Base de datos poblada exitosamente.
+2026-07-07 19:30:40,382 [INFO] (main.py): Ejecutando el pipeline del Data Lakehouse
+2026-07-07 19:30:40,513 [ERROR] (main.py): Error crítico en el flujo de ejecución: module 'pipeline_lakehouse' has no attribute 'ejecutar_lakehouse_pipeline'
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\main.py", line 39, in ejecutar_pipeline_fintech
+    pipeline_lakehouse.ejecutar_lakehouse_pipeline()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'pipeline_lakehouse' has no attribute 'ejecutar_lakehouse_pipeline'
+2026-07-07 19:30:40,514 [INFO] (main.py): Conexión con el contenedor Docker cerrada de forma segura.
+2026-07-07 19:30:40,514 [INFO] (main.py): === FIN DEL PROCESO UNIFICADO ===
+2026-07-07 19:32:20,631 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-07 19:32:20,631 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-07 19:32:20,659 [INFO] (main.py): Iniciando inyección en bloques
+2026-07-07 19:32:29,789 [INFO] (main.py): Fase Transaccional completada: Base de datos poblada exitosamente.
+2026-07-07 19:32:29,789 [INFO] (main.py): Ejecutando el pipeline del Data Lakehouse
+2026-07-07 19:32:29,932 [ERROR] (main.py): Error crítico en el flujo de ejecución: module 'pipeline_lakehouse' has no attribute 'ejecutar_lakehouse'
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\main.py", line 39, in ejecutar_pipeline_fintech
+    pipeline_lakehouse.ejecutar_lakehouse()()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'pipeline_lakehouse' has no attribute 'ejecutar_lakehouse'
+2026-07-07 19:32:29,933 [INFO] (main.py): Conexión con el contenedor Docker cerrada de forma segura.
+2026-07-07 19:32:29,933 [INFO] (main.py): === FIN DEL PROCESO UNIFICADO ===
+2026-07-07 19:34:54,029 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-07 19:34:54,029 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-07 19:34:54,058 [INFO] (main.py): Iniciando inyección en bloques
+2026-07-07 19:35:03,051 [INFO] (main.py): Fase Transaccional completada: Base de datos poblada exitosamente.
+2026-07-07 19:35:03,051 [INFO] (main.py): Ejecutando el pipeline del Data Lakehouse
+2026-07-07 19:35:03,180 [INFO] (pipeline_lakehouse.py): === INICIANDO PIPELINE DE DATA LAKEHOUSE ===
+2026-07-07 19:35:06,117 [ERROR] (main.py): Error crítico en el flujo de ejecución: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext.
+: java.lang.RuntimeException: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:735)
+	at org.apache.hadoop.util.Shell.getSetPermissionCommand(Shell.java:270)
+	at org.apache.hadoop.fs.FileUtil.chmod(FileUtil.java:1139)
+	at org.apache.hadoop.fs.FileUtil.chmod(FileUtil.java:1125)
+	at org.apache.spark.util.Utils$.fetchFile(Utils.scala:489)
+	at org.apache.spark.executor.Executor.$anonfun$updateDependencies$14(Executor.scala:1163)
+	at org.apache.spark.executor.Executor.$anonfun$updateDependencies$14$adapted(Executor.scala:1155)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:985)
+	at scala.collection.immutable.Map$Map1.foreach(Map.scala:193)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:984)
+	at org.apache.spark.executor.Executor.updateDependencies(Executor.scala:1155)
+	at org.apache.spark.executor.Executor.<init>(Executor.scala:330)
+	at org.apache.spark.scheduler.local.LocalEndpoint.<init>(LocalSchedulerBackend.scala:64)
+	at org.apache.spark.scheduler.local.LocalSchedulerBackend.start(LocalSchedulerBackend.scala:132)
+	at org.apache.spark.scheduler.TaskSchedulerImpl.start(TaskSchedulerImpl.scala:235)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:604)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:238)
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getTimeDurationHelper(Configuration.java:1907)
+	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1867)
+	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1840)
+	at org.apache.hadoop.util.ShutdownHookManager.getShutdownTimeout(ShutdownHookManager.java:183)
+	at org.apache.hadoop.util.ShutdownHookManager$HookEntry.<init>(ShutdownHookManager.java:207)
+	at org.apache.hadoop.util.ShutdownHookManager.addShutdownHook(ShutdownHookManager.java:304)
+	at org.apache.spark.util.SparkShutdownHookManager.install(ShutdownHookManager.scala:181)
+	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks$lzycompute(ShutdownHookManager.scala:50)
+	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks(ShutdownHookManager.scala:48)
+	at org.apache.spark.util.ShutdownHookManager$.addShutdownHook(ShutdownHookManager.scala:153)
+	at org.apache.spark.util.ShutdownHookManager$.<init>(ShutdownHookManager.scala:58)
+	at org.apache.spark.util.ShutdownHookManager$.<clinit>(ShutdownHookManager.scala)
+	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:242)
+	at org.apache.spark.util.SparkFileUtils.createTempDir(SparkFileUtils.scala:103)
+	at org.apache.spark.util.SparkFileUtils.createTempDir$(SparkFileUtils.scala:102)
+	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:94)
+	at org.apache.spark.deploy.SparkSubmit.prepareSubmitEnvironment(SparkSubmit.scala:372)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:964)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:194)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:217)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1120)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1129)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+Caused by: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:467)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 25 more
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\main.py", line 39, in ejecutar_pipeline_fintech
+    pipeline_lakehouse.exec_pipeline_lakehouse()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 84, in exec_pipeline_lakehouse
+    spark = build_spark_session()
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 60, in build_spark_session
+    return builder.getOrCreate()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Jose Miguel\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyspark\sql\session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "C:\Users\Jose Miguel\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyspark\context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyspark\context.py", line 203, in __init__
+    self._do_init(
+    ~~~~~~~~~~~~~^
+        master,
+        ^^^^^^^
+    ...<10 lines>...
+        memory_profiler_cls,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jose Miguel\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyspark\context.py", line 296, in _do_init
+    self._jsc = jsc or self._initialize_context(self._conf._jconf)
+                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyspark\context.py", line 421, in _initialize_context
+    return self._jvm.JavaSparkContext(jconf)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Jose Miguel\AppData\Local\Programs\Python\Python313\Lib\site-packages\py4j\java_gateway.py", line 1587, in __call__
+    return_value = get_return_value(
+        answer, self._gateway_client, None, self._fqn)
+  File "C:\Users\Jose Miguel\AppData\Local\Programs\Python\Python313\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+        "An error occurred while calling {0}{1}{2}.\n".
+        format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext.
+: java.lang.RuntimeException: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:735)
+	at org.apache.hadoop.util.Shell.getSetPermissionCommand(Shell.java:270)
+	at org.apache.hadoop.fs.FileUtil.chmod(FileUtil.java:1139)
+	at org.apache.hadoop.fs.FileUtil.chmod(FileUtil.java:1125)
+	at org.apache.spark.util.Utils$.fetchFile(Utils.scala:489)
+	at org.apache.spark.executor.Executor.$anonfun$updateDependencies$14(Executor.scala:1163)
+	at org.apache.spark.executor.Executor.$anonfun$updateDependencies$14$adapted(Executor.scala:1155)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:985)
+	at scala.collection.immutable.Map$Map1.foreach(Map.scala:193)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:984)
+	at org.apache.spark.executor.Executor.updateDependencies(Executor.scala:1155)
+	at org.apache.spark.executor.Executor.<init>(Executor.scala:330)
+	at org.apache.spark.scheduler.local.LocalEndpoint.<init>(LocalSchedulerBackend.scala:64)
+	at org.apache.spark.scheduler.local.LocalSchedulerBackend.start(LocalSchedulerBackend.scala:132)
+	at org.apache.spark.scheduler.TaskSchedulerImpl.start(TaskSchedulerImpl.scala:235)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:604)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:238)
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getTimeDurationHelper(Configuration.java:1907)
+	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1867)
+	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1840)
+	at org.apache.hadoop.util.ShutdownHookManager.getShutdownTimeout(ShutdownHookManager.java:183)
+	at org.apache.hadoop.util.ShutdownHookManager$HookEntry.<init>(ShutdownHookManager.java:207)
+	at org.apache.hadoop.util.ShutdownHookManager.addShutdownHook(ShutdownHookManager.java:304)
+	at org.apache.spark.util.SparkShutdownHookManager.install(ShutdownHookManager.scala:181)
+	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks$lzycompute(ShutdownHookManager.scala:50)
+	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks(ShutdownHookManager.scala:48)
+	at org.apache.spark.util.ShutdownHookManager$.addShutdownHook(ShutdownHookManager.scala:153)
+	at org.apache.spark.util.ShutdownHookManager$.<init>(ShutdownHookManager.scala:58)
+	at org.apache.spark.util.ShutdownHookManager$.<clinit>(ShutdownHookManager.scala)
+	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:242)
+	at org.apache.spark.util.SparkFileUtils.createTempDir(SparkFileUtils.scala:103)
+	at org.apache.spark.util.SparkFileUtils.createTempDir$(SparkFileUtils.scala:102)
+	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:94)
+	at org.apache.spark.deploy.SparkSubmit.prepareSubmitEnvironment(SparkSubmit.scala:372)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:964)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:194)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:217)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1120)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1129)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+Caused by: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:467)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 25 more
+
+2026-07-07 19:35:06,121 [INFO] (main.py): Conexión con el contenedor Docker cerrada de forma segura.
+2026-07-07 19:35:06,121 [INFO] (main.py): === FIN DEL PROCESO UNIFICADO ===
+2026-07-08 08:30:58,561 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-08 08:30:58,562 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-08 08:33:32,045 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-08 08:33:32,046 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-08 08:33:32,108 [INFO] (main.py): Iniciando inyección en bloques
+2026-07-08 08:33:41,091 [INFO] (main.py): Fase Transaccional completada: Base de datos poblada exitosamente.
+2026-07-08 08:33:41,091 [INFO] (main.py): Ejecutando el pipeline del Data Lakehouse
+2026-07-08 08:33:41,675 [INFO] (pipeline_lakehouse.py): === INICIANDO PIPELINE DE DATA LAKEHOUSE ===
+2026-07-08 08:33:44,788 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Extracción de datos desde PostgreSQL hacia la capa Bronze
+2026-07-08 08:33:44,789 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente desde PostgreSQL
+2026-07-08 08:33:45,831 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente_tel desde PostgreSQL
+2026-07-08 08:33:45,856 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla beneficiario desde PostgreSQL
+2026-07-08 08:33:45,882 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla beneficiario_tel desde PostgreSQL
+2026-07-08 08:33:45,905 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cuenta desde PostgreSQL
+2026-07-08 08:33:45,928 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla prestamo desde PostgreSQL
+2026-07-08 08:33:45,955 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla tarjeta desde PostgreSQL
+2026-07-08 08:33:45,985 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla transaccion desde PostgreSQL
+2026-07-08 08:33:46,018 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente_biometria desde PostgreSQL
+2026-07-08 08:33:47,200 [ERROR] (pipeline_lakehouse.py): Error crítico en el procesamiento del Lakehouse: An error occurred while calling o104.parquet.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (192.168.0.246 executor driver): java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080833465416665181203529089_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2780)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2779)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2779)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1242)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3048)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$executeWrite$4(FileFormatWriter.scala:307)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:271)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:304)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:190)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:190)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:240)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:792)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080833465416665181203529089_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 101, in exec_pipeline_lakehouse
+    _write_parquet(bronze_cliente, BRONZE_ROOT / "cliente.parquet")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 79, in _write_parquet
+    df.write.mode("overwrite").parquet(ruta_segura)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\sql\readwriter.py", line 1721, in parquet
+    self._jwrite.parquet(path)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+        answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+        "An error occurred while calling {0}{1}{2}.\n".
+        format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling o104.parquet.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (192.168.0.246 executor driver): java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080833465416665181203529089_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2780)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2779)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2779)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1242)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3048)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$executeWrite$4(FileFormatWriter.scala:307)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:271)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:304)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:190)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:190)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:240)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:792)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080833465416665181203529089_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2026-07-08 08:33:47,271 [ERROR] (main.py): Error crítico en el flujo de ejecución: An error occurred while calling o104.parquet.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (192.168.0.246 executor driver): java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080833465416665181203529089_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2780)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2779)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2779)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1242)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3048)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$executeWrite$4(FileFormatWriter.scala:307)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:271)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:304)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:190)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:190)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:240)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:792)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080833465416665181203529089_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\main.py", line 39, in ejecutar_pipeline_fintech
+    pipeline_lakehouse.exec_pipeline_lakehouse()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 250, in exec_pipeline_lakehouse
+    raise e
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 101, in exec_pipeline_lakehouse
+    _write_parquet(bronze_cliente, BRONZE_ROOT / "cliente.parquet")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 79, in _write_parquet
+    df.write.mode("overwrite").parquet(ruta_segura)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\sql\readwriter.py", line 1721, in parquet
+    self._jwrite.parquet(path)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+        answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+        "An error occurred while calling {0}{1}{2}.\n".
+        format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling o104.parquet.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (192.168.0.246 executor driver): java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080833465416665181203529089_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2780)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2779)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2779)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1242)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3048)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$executeWrite$4(FileFormatWriter.scala:307)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:271)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:304)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:190)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:190)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:240)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:792)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080833465416665181203529089_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2026-07-08 08:33:47,273 [INFO] (main.py): Conexión con el contenedor Docker cerrada de forma segura.
+2026-07-08 08:33:47,273 [INFO] (main.py): === FIN DEL PROCESO UNIFICADO ===
+2026-07-08 08:33:47,282 [INFO] (clientserver.py): Closing down clientserver connection
+2026-07-08 08:43:41,866 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-08 08:43:41,866 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-08 08:43:41,941 [INFO] (main.py): Iniciando inyección en bloques
+2026-07-08 08:43:50,954 [INFO] (main.py): Fase Transaccional completada: Base de datos poblada exitosamente.
+2026-07-08 08:43:50,954 [INFO] (main.py): Ejecutando el pipeline del Data Lakehouse
+2026-07-08 08:43:51,087 [INFO] (pipeline_lakehouse.py): === INICIANDO PIPELINE DE DATA LAKEHOUSE ===
+2026-07-08 08:43:53,871 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Extracción de datos desde PostgreSQL hacia la capa Bronze
+2026-07-08 08:43:53,871 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente desde PostgreSQL
+2026-07-08 08:43:54,890 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente_tel desde PostgreSQL
+2026-07-08 08:43:54,916 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla beneficiario desde PostgreSQL
+2026-07-08 08:43:54,943 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla beneficiario_tel desde PostgreSQL
+2026-07-08 08:43:54,965 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cuenta desde PostgreSQL
+2026-07-08 08:43:54,991 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla prestamo desde PostgreSQL
+2026-07-08 08:43:55,015 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla tarjeta desde PostgreSQL
+2026-07-08 08:43:55,039 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla transaccion desde PostgreSQL
+2026-07-08 08:43:55,071 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente_biometria desde PostgreSQL
+2026-07-08 08:43:56,279 [ERROR] (pipeline_lakehouse.py): Error crítico en el procesamiento del Lakehouse: An error occurred while calling o106.parquet.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (192.168.0.246 executor driver): java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080843551495772850465193562_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2780)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2779)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2779)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1242)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3048)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$executeWrite$4(FileFormatWriter.scala:307)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:271)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:304)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:190)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:190)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:240)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:792)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080843551495772850465193562_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 103, in exec_pipeline_lakehouse
+    _write_parquet(bronze_cliente, BRONZE_ROOT / "cliente.parquet")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 81, in _write_parquet
+    df.write.mode("overwrite").parquet(ruta_segura)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\sql\readwriter.py", line 1721, in parquet
+    self._jwrite.parquet(path)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+        answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+        "An error occurred while calling {0}{1}{2}.\n".
+        format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling o106.parquet.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (192.168.0.246 executor driver): java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080843551495772850465193562_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2780)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2779)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2779)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1242)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3048)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$executeWrite$4(FileFormatWriter.scala:307)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:271)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:304)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:190)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:190)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:240)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:792)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080843551495772850465193562_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2026-07-08 08:43:56,333 [ERROR] (main.py): Error crítico en el flujo de ejecución: An error occurred while calling o106.parquet.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (192.168.0.246 executor driver): java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080843551495772850465193562_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2780)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2779)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2779)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1242)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3048)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$executeWrite$4(FileFormatWriter.scala:307)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:271)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:304)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:190)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:190)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:240)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:792)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080843551495772850465193562_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\main.py", line 39, in ejecutar_pipeline_fintech
+    pipeline_lakehouse.exec_pipeline_lakehouse()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 252, in exec_pipeline_lakehouse
+    raise e
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 103, in exec_pipeline_lakehouse
+    _write_parquet(bronze_cliente, BRONZE_ROOT / "cliente.parquet")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 81, in _write_parquet
+    df.write.mode("overwrite").parquet(ruta_segura)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\sql\readwriter.py", line 1721, in parquet
+    self._jwrite.parquet(path)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+        answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+        "An error occurred while calling {0}{1}{2}.\n".
+        format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling o106.parquet.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (192.168.0.246 executor driver): java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080843551495772850465193562_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2780)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2779)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2779)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1242)
+	at scala.Option.foreach(Option.scala:407)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1242)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3048)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.$anonfun$executeWrite$4(FileFormatWriter.scala:307)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:271)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:304)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:190)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:190)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:240)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:792)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: Mkdirs failed to create file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet/_temporary/0/_temporary/attempt_202607080843551495772850465193562_0000_m_000000_0 (exists=false, cwd=file:/C:/Users/Jose Miguel/Desktop/Proyectos/Proyecto_Fintech_V3)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:515)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:500)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1195)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:1175)
+	at org.apache.parquet.hadoop.util.HadoopOutputFile.create(HadoopOutputFile.java:74)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:347)
+	at org.apache.parquet.hadoop.ParquetFileWriter.<init>(ParquetFileWriter.java:314)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:484)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:422)
+	at org.apache.parquet.hadoop.ParquetOutputFormat.getRecordWriter(ParquetOutputFormat.java:411)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetOutputWriter.<init>(ParquetOutputWriter.scala:36)
+	at org.apache.spark.sql.execution.datasources.parquet.ParquetUtils$$anon$1.newInstance(ParquetUtils.scala:490)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.newOutputWriter(FileFormatDataWriter.scala:161)
+	at org.apache.spark.sql.execution.datasources.SingleDirectoryDataWriter.<init>(FileFormatDataWriter.scala:146)
+	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeTask(FileFormatWriter.scala:389)
+	at org.apache.spark.sql.execution.datasources.WriteFilesExec.$anonfun$doExecuteWrite$1(WriteFiles.scala:100)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+2026-07-08 08:43:56,335 [INFO] (main.py): Conexión con el contenedor Docker cerrada de forma segura.
+2026-07-08 08:43:56,335 [INFO] (main.py): === FIN DEL PROCESO UNIFICADO ===
+2026-07-08 08:43:56,345 [INFO] (clientserver.py): Closing down clientserver connection
+2026-07-08 08:49:32,525 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-08 08:49:32,526 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-08 08:49:32,554 [INFO] (main.py): Iniciando inyección en bloques
+2026-07-08 08:49:41,529 [INFO] (main.py): Fase Transaccional completada: Base de datos poblada exitosamente.
+2026-07-08 08:49:41,529 [INFO] (main.py): Ejecutando el pipeline del Data Lakehouse
+2026-07-08 08:49:41,652 [INFO] (pipeline_lakehouse.py): === INICIANDO PIPELINE DE DATA LAKEHOUSE ===
+2026-07-08 08:49:44,430 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Extracción de datos desde PostgreSQL hacia la capa Bronze
+2026-07-08 08:49:44,430 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente desde PostgreSQL
+2026-07-08 08:49:45,411 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente_tel desde PostgreSQL
+2026-07-08 08:49:45,436 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla beneficiario desde PostgreSQL
+2026-07-08 08:49:45,462 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla beneficiario_tel desde PostgreSQL
+2026-07-08 08:49:45,486 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cuenta desde PostgreSQL
+2026-07-08 08:49:45,508 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla prestamo desde PostgreSQL
+2026-07-08 08:49:45,531 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla tarjeta desde PostgreSQL
+2026-07-08 08:49:45,556 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla transaccion desde PostgreSQL
+2026-07-08 08:49:45,587 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente_biometria desde PostgreSQL
+2026-07-08 08:49:50,170 [INFO] (pipeline_lakehouse.py): Iniciando transformaciones y agregaciones para la capa Silver
+2026-07-08 08:49:50,241 [ERROR] (pipeline_lakehouse.py): Error crítico en el procesamiento del Lakehouse: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet.
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 115, in exec_pipeline_lakehouse
+    b_cliente = spark.read.parquet((BRONZE_ROOT / "cliente.parquet").absolute().as_uri())
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\sql\readwriter.py", line 544, in parquet
+    return self._df(self._jreader.parquet(_to_seq(self._spark._sc, paths)))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+        answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet.
+2026-07-08 08:49:50,501 [ERROR] (main.py): Error crítico en el flujo de ejecución: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet.
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\main.py", line 39, in ejecutar_pipeline_fintech
+    pipeline_lakehouse.exec_pipeline_lakehouse()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 252, in exec_pipeline_lakehouse
+    raise e
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\pipeline_lakehouse.py", line 115, in exec_pipeline_lakehouse
+    b_cliente = spark.read.parquet((BRONZE_ROOT / "cliente.parquet").absolute().as_uri())
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\sql\readwriter.py", line 544, in parquet
+    return self._df(self._jreader.parquet(_to_seq(self._spark._sc, paths)))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+        answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/bronze/cliente.parquet.
+2026-07-08 08:49:50,504 [INFO] (main.py): Conexión con el contenedor Docker cerrada de forma segura.
+2026-07-08 08:49:50,504 [INFO] (main.py): === FIN DEL PROCESO UNIFICADO ===
+2026-07-08 08:49:50,512 [INFO] (clientserver.py): Closing down clientserver connection
+2026-07-08 09:08:21,657 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-08 09:08:21,657 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-08 09:08:21,699 [INFO] (main.py): Iniciando inyección en bloques
+2026-07-08 09:08:30,712 [INFO] (main.py): Fase Transaccional completada: Base de datos poblada exitosamente.
+2026-07-08 09:08:30,712 [INFO] (main.py): Ejecutando el pipeline del Data Lakehouse
+2026-07-08 09:08:30,839 [INFO] (pipeline_lakehouse.py): === INICIANDO PIPELINE DE DATA LAKEHOUSE ===
+2026-07-08 09:08:33,627 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Extracción de datos desde PostgreSQL hacia la capa Bronze
+2026-07-08 09:08:33,628 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente desde PostgreSQL
+2026-07-08 09:08:34,614 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente_tel desde PostgreSQL
+2026-07-08 09:08:34,637 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla beneficiario desde PostgreSQL
+2026-07-08 09:08:34,663 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla beneficiario_tel desde PostgreSQL
+2026-07-08 09:08:34,687 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cuenta desde PostgreSQL
+2026-07-08 09:08:34,712 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla prestamo desde PostgreSQL
+2026-07-08 09:08:34,735 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla tarjeta desde PostgreSQL
+2026-07-08 09:08:34,760 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla transaccion desde PostgreSQL
+2026-07-08 09:08:34,790 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente_biometria desde PostgreSQL
+2026-07-08 09:08:39,434 [INFO] (pipeline_lakehouse.py): Iniciando transformaciones y agregaciones para la capa Silver
+2026-07-08 09:08:45,256 [INFO] (pipeline_lakehouse.py): Dataset para ML generado en Silver
+2026-07-08 09:08:45,256 [INFO] (pipeline_lakehouse.py): Procesando Capa GOLD
+2026-07-08 09:08:46,384 [INFO] (pipeline_lakehouse.py): LAKEHOUSE completado y sincronizado
+2026-07-08 09:08:46,706 [INFO] (main.py): Ejecutando el modelo predictivo Random Forest
+2026-07-08 09:08:47,573 [INFO] (modelo_ml.py): === INICIANDO MODELO DE CREDIT SCORE ===
+2026-07-08 09:08:47,725 [INFO] (modelo_ml.py): Cargando datos indexados de la capa Silver...
+2026-07-08 09:08:47,782 [ERROR] (modelo_ml.py): Error crítico durante la ejecución del pipeline: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/silver/pivot_model_credit.
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\modelo_ml.py", line 27, in ejecutar_credit_score
+    silver_transacciones = spark.read.parquet(path_pivot.absolute().as_uri())
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\sql\readwriter.py", line 544, in parquet
+    return self._df(self._jreader.parquet(_to_seq(self._spark._sc, paths)))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+        answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/silver/pivot_model_credit.
+2026-07-08 09:08:48,236 [ERROR] (main.py): Error crítico en el flujo de ejecución: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/silver/pivot_model_credit.
+Traceback (most recent call last):
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\main.py", line 43, in ejecutar_pipeline_fintech
+    ejecutar_credit_score()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\modelo_ml.py", line 130, in ejecutar_credit_score
+    raise error
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\modelo_ml.py", line 27, in ejecutar_credit_score
+    silver_transacciones = spark.read.parquet(path_pivot.absolute().as_uri())
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\sql\readwriter.py", line 544, in parquet
+    return self._df(self._jreader.parquet(_to_seq(self._spark._sc, paths)))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+        answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\.venv\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/Jose%20Miguel/Desktop/Proyectos/Proyecto_Fintech_V3/storage/silver/pivot_model_credit.
+2026-07-08 09:08:48,238 [INFO] (main.py): Conexión con el contenedor Docker cerrada de forma segura.
+2026-07-08 09:08:48,238 [INFO] (main.py): === FIN DEL PROCESO UNIFICADO ===
+2026-07-08 09:08:48,246 [INFO] (clientserver.py): Closing down clientserver connection
+2026-07-08 10:14:31,491 [INFO] (main.py): === INICIANDO ECOSISTEMA FINTECH ===
+2026-07-08 10:14:31,492 [INFO] (main.py): Verificando y mapeando estructuras relacionales de SQLAlchemy
+2026-07-08 10:14:31,539 [INFO] (main.py): Iniciando inyección en bloques
+2026-07-08 10:14:41,050 [INFO] (main.py): Fase Transaccional completada: Base de datos poblada exitosamente.
+2026-07-08 10:14:41,050 [INFO] (main.py): Ejecutando el pipeline del Data Lakehouse
+2026-07-08 10:14:41,183 [INFO] (pipeline_lakehouse.py): === INICIANDO PIPELINE DE DATA LAKEHOUSE ===
+2026-07-08 10:14:43,953 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Extracción de datos desde PostgreSQL hacia la capa Bronze
+2026-07-08 10:14:43,954 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente desde PostgreSQL
+2026-07-08 10:14:44,923 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente_tel desde PostgreSQL
+2026-07-08 10:14:44,948 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla beneficiario desde PostgreSQL
+2026-07-08 10:14:44,976 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla beneficiario_tel desde PostgreSQL
+2026-07-08 10:14:44,999 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cuenta desde PostgreSQL
+2026-07-08 10:14:45,024 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla prestamo desde PostgreSQL
+2026-07-08 10:14:45,049 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla tarjeta desde PostgreSQL
+2026-07-08 10:14:45,073 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla transaccion desde PostgreSQL
+2026-07-08 10:14:45,104 [INFO] (pipeline_lakehouse.py): [LAKEHOUSE] Leyendo tabla cliente_biometria desde PostgreSQL
+2026-07-08 10:14:50,386 [INFO] (pipeline_lakehouse.py): Iniciando transformaciones y agregaciones para la capa Silver
+2026-07-08 10:14:56,392 [INFO] (pipeline_lakehouse.py): Dataset para ML generado en Silver
+2026-07-08 10:14:56,392 [INFO] (pipeline_lakehouse.py): Procesando Capa GOLD
+2026-07-08 10:14:57,508 [INFO] (pipeline_lakehouse.py): LAKEHOUSE completado y sincronizado
+2026-07-08 10:14:57,666 [INFO] (main.py): Ejecutando el modelo predictivo Random Forest
+2026-07-08 10:14:57,927 [INFO] (modelo_ml.py): === INICIANDO MODELO DE CREDIT SCORE ===
+2026-07-08 10:14:58,094 [INFO] (modelo_ml.py): Cargando datos indexados de la capa Silver
+2026-07-08 10:14:58,143 [INFO] (modelo_ml.py): Calculando métricas temporales basadas en la ventana histórica de 365 días
+2026-07-08 10:14:58,309 [INFO] (modelo_ml.py): Fecha de referencia analítica más reciente encontrada: 2026-07-08 10:12:28
+2026-07-08 10:14:59,066 [INFO] (modelo_ml.py): Entrenando algoritmo Random Forest Classifier...
+2026-07-08 10:15:04,223 [INFO] (modelo_ml.py): Desempeño del modelo - Métrica AUC: 0.9992
+2026-07-08 10:15:04,223 [INFO] (modelo_ml.py): === IMPORTANCIA DE LAS VARIABLES (HALLAZGOS) ===
+2026-07-08 10:15:04,257 [INFO] (modelo_ml.py): Variable: saldo_promedio_ultimos_90_dias      | Importancia: 0.0002
+2026-07-08 10:15:04,257 [INFO] (modelo_ml.py): Variable: volumen_total_ingresos_vs_egresos   | Importancia: 0.9998
+2026-07-08 10:15:04,257 [INFO] (modelo_ml.py): Variable: frecuencia_uso                      | Importancia: 0.0000
+2026-07-08 10:15:04,257 [INFO] (modelo_ml.py): Generando asignaciones de líneas de crédito
+2026-07-08 10:15:04,272 [INFO] (modelo_ml.py): Guardando resultados predictivos en la capa Gold Parquet: C:\Users\Jose Miguel\Desktop\Proyectos\Proyecto_Fintech_V3\storage\gold\ml_credit_score
+2026-07-08 10:15:05,470 [INFO] (modelo_ml.py): === MODELO DE CREDIT SCORE FINALIZADO Y UNIFICADO CON ÉXITO ===
+2026-07-08 10:15:05,744 [INFO] (main.py): Conexión con el contenedor Docker cerrada de forma segura.
+2026-07-08 10:15:05,744 [INFO] (main.py): === FIN DEL PROCESO UNIFICADO ===
+2026-07-08 10:15:05,753 [INFO] (clientserver.py): Closing down clientserver connection

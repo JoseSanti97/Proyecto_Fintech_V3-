@@ -1,0 +1,24 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# --- Base de Datos & VS Code ---
+LocalHost.session.sql
+.vscode/
+
+# --- Entornos Virtuales (Si llegas a usar uno) ---
+venv/
+.venv/
+.venv1/
+env/
+
+# --- Datos de Lakehouse y artefactos locales ---
+storage/
+
+# --- Archivos del Sistema ---
+.DS_Store
+Thumbs.db
+data.env
