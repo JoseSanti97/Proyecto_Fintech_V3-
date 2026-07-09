@@ -139,14 +139,16 @@ Proyecto_Fintech/
 
 1. Inicializar la Base de Datos en Docker
 Levanta el contenedor oficial de PostgreSQL configurando las variables de entorno correspondientes a tu configuración:
-
+```text
 docker run -d --name bd_fintech -p 5432:5432 -e POSTGRES_USER=tu_usuario -e POSTGRES_DB=fintech_db -e POSTGRES_PASSWORD=tu_password postgres:latest
-
+```
 2. Configurar el Entorno Virtual de Python
 Crea y activa tu entorno virtual aislado, e instala la suite de librerías del proyecto:
 
 # Crear entorno virtual
+```text
 python -m venv .venv
+```
 
 # Activar en Windows (PowerShell)
 ```text
