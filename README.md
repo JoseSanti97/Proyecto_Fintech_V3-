@@ -15,17 +15,17 @@ graph TD
     end
 
     subgraph Lakehouse [Data Lakehouse: Arquitectura Medallion]
-        B[Layer 1: Bronze <br> Ingesta Inmutable Parquet] --> S[Layer 2: Silver <br> Limpieza, Gobierno y Data Masking PII]
+        B[Layer 1: Bronze <br> Ingesta Inmutable Parquet] --> S[Layer 2: Silver <br> Limpieza, Gobierno y Data Masking]
         S --> G[Layer 3: Gold <br> Data Marts de KPI y Analítica]
     end
 
-    subgraph ML [Capa de Inteligencia]
+    subgraph ML
         RF[PySpark MLlib: Random Forest]
     end
 
     DB -->|Ingesta JDBC / PySpark| B
-    G -->|Consumo de Features| RF
-    RF -->|Inferencia y Scoring| G
+    G -->|Consumo de Características| RF
+    RF -->|Inferencias| G
 
     style DB fill:#336791,stroke:#fff,stroke-width:2px,color:#fff
     style B fill:#b87333,stroke:#fff,stroke-width:2px,color:#fff
