@@ -2,7 +2,9 @@
 
 ## Resumen Ejecutivo
 
-Descripción de la Problemática: Se tiene la necesidad de una plataforma para gestionar cuentas digitales, tarjetas y préstamos. Es necesario poder llevar acabo eficientemente las transacciones y la gestión de la información perteneciente a los clientes. 
+Ecosistema Fintech End-to-End: Arquitectura Lakehouse corporativa diseñada para la ingesta, anonimización, procesamiento masivo y analítica predictiva de datos financieros simulando entornos productivos reales
+
+Descripción de la Problemática a resolver: Se tiene la necesidad de una plataforma para gestionar cuentas digitales, tarjetas y préstamos. Es necesario poder llevar acabo eficientemente las transacciones y la gestión de la información perteneciente a los clientes. 
 
 Este proyecto representa el escalamiento y evolución de una plataforma Fintech transaccional pura (OLTP) hacia un ecosistema analítico e híbrido de datos masivos. Se diseñó e implementó un **Data Lakehouse local** bajo la **Arquitectura Medallion**, acoplando la ingesta automatizada de datos, gobierno de datos financiero, procesamiento distribuido y un modelo predictivo de Machine Learning (*Credit Scoring*) para la asignación inteligente de líneas de crédito.
 
