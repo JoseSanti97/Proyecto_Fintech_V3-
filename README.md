@@ -155,7 +155,7 @@ source .venv/bin/activate
 
 # Actualizar gestor e instalar dependencias
 pip install --upgrade pip
-pip install -r requirements.txt (En caso de no funcionar, instala cada elemento de requirements uno por uno)
+pip install -r requirements.txt
 
 3. Descargar el Conector JDBC (Driver de Base de Datos)
 Spark requiere el driver oficial de Java para conectarse a PostgreSQL. Descárgalo en el directorio raíz:
