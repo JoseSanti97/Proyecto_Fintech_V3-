@@ -1,4 +1,4 @@
-# Ecosystem End-to-End: Data Lakehouse & Machine Learning para Plataforma Fintech
+# Ecosistema End-to-End: Data Lakehouse & Machine Learning para Plataforma Fintech
 
 ## Resumen Ejecutivo
 
