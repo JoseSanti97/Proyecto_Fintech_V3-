@@ -50,7 +50,6 @@ Cada tarjeta debe estar vinculada a una única cuenta de usuario.
 
 Enlace a la primera versión del proyecto: https://github.com/JoseSanti97/Proyects/tree/main/Proyecto_Fintech
 
-Para garantizar el Gobierno de Datos y el Control de Accesos Basado en Roles (RBAC), decidí desacoplar la seguridad de la lógica de los scripts de PySpark. Localmente, la gobernanza se administra mediante políticas de permisos del sistema operativo sobre los directorios de storage/ de cada capa Medallion. Esto asegura que si un analista intenta leer la capa Bronze o Silver, el sistema bloqueará el acceso a nivel de infraestructura, "simulando" herramientas como Unity Catalog(de Databricks) en entornos Cloud.
 ---
 
 
@@ -121,11 +120,6 @@ Proyecto_Fintech/
 
 
 ```
-
-## Arquitectura y Tecnologías
-* **Motor de Base de Datos:** PostgreSQL 15+ alojado en contenedor Docker.
-* **Scripting & Automatización:** Python 3.13.
-* **Librerías utilizadas:** `SQLAlchemy`, `psycopg2-binary`, `Faker` (Generador de datos sintéticos), `PySpark`.
 
 
 ## Instalación e Instrucciones
