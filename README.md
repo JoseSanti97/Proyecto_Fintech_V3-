@@ -163,7 +163,7 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-3. Descargar el Conector JDBC (Driver de Base de Datos)
+3. Descargar el Conector JDBC 
 Spark requiere el driver oficial de Java para conectarse a PostgreSQL. Descárgalo en el directorio raíz:
 
 # Crear la carpeta de drivers
@@ -238,10 +238,10 @@ python backup_data.py      # Generación automática de respaldos lógicos (.sql
 
 Normalización del Modelo Relacional
 
-El diseño de la base de datos operacional se estructuró bajo la Forma Normal de Boyce-Codd (BCNF) para erradicar anomalías de inserción, actualización y borrado:
+El diseño de la base de datos se estructuró bajo la Forma Normal de Boyce-Codd (BCNF) para erradicar anomalías de inserción, actualización y borrado:
 
-1NF: Se resolvió la presencia de atributos multivalor creando las entidades atómicas CLIENTE_TEL y BENEFICIARIO_TEL.
+1NF: Se resolvió la presencia de atributos multivaluados creando las entidades atómicas CLIENTE_TEL y BENEFICIARIO_TEL.
 
-2NF & 3NF: Se eliminaron las dependencias parciales y transitivas, aislando los datos del producto financiero en CUENTA y vinculándolos exclusivamente a través del identificador id_cliente como Llave Foránea.
+2NF & 3NF: Se eliminaron las dependencias parciales y transitivas, aislando los datos del producto financiero en CUENTA y vinculándolos exclusivamente a través del identificador id_cliente como FK.
 
 BCNF: Cada determinante en las tablas principales (como id_cliente y CURP en la tabla CLIENTE) constituye estrictamente una superllave funcional.
