@@ -149,20 +149,25 @@ Crea y activa tu entorno virtual aislado, e instala la suite de librerías del p
 python -m venv .venv
 
 # Activar en Windows (PowerShell)
+```text
 .venv\Scripts\Activate.ps1
+```
 # Activar en Linux / macOS / Git Bash
+```text
 source .venv/bin/activate
-
+```
 # Actualizar gestor e instalar dependencias
+```text
 pip install --upgrade pip
 pip install -r requirements.txt
-
+```
 3. Descargar el Conector JDBC (Driver de Base de Datos)
 Spark requiere el driver oficial de Java para conectarse a PostgreSQL. Descárgalo en el directorio raíz:
 
 # Crear la carpeta de drivers
+```text
 mkdir -p drivers
-
+```
 # En Windows (PowerShell)
 Invoke-WebRequest -Uri "[https://jdbc.postgresql.org/download/postgresql-42.6.0.jar](https://jdbc.postgresql.org/download/postgresql-42.6.0.jar)" -OutFile "drivers/postgresql-42.6.0.jar"
 
@@ -171,8 +176,9 @@ curl -o drivers/postgresql-42.6.0.jar [https://jdbc.postgresql.org/download/post
 
 4. Ejecución del Flujo de Datos Completo
 Ejecuta el pipeline unificado. Este purgará estados anteriores, compilará el esquema relacional DDL, inyectará datos sintéticos e iniciará las fases del Data Lakehouse y Machine Learning de Spark de manera secuencial:
-
+```text
 python main.py
+```
 
 Módulos Auxiliares y Explotación de Datos
 Una vez que el orquestador finalice con éxito, puedes auditar, leer y exportar la información del Lakehouse mediante la consola:
@@ -181,25 +187,28 @@ A. Inspección Dinámica de Archivos Parquet
 Puedes leer cualquier tabla analítica de las capas Silver o Gold pasando la capa y el nombre como argumentos en la terminal:
 
 # Inspeccionar dimensiones de clientes anonimizados en Silver
+```text
 python read_parquet.py silver dim_clientes
-
+```
 # Inspeccionar el Data Mart consolidado de préstamos en Gold
+```text
 python read_parquet.py gold kpi_prestamos
-
+```
 # Inspeccionar las predicciones financieras
+```text
 python read_parquet.py gold ml_credit_score
-
+```
 B. Exportación de Resultados a Formato CSV
 Para análisis en herramientas externas como MS Excel, convierte cualquier tabla Parquet a un archivo .csv plano y unificado:
-
+```text
 python parquet_to_csv.py gold ml_credit_score
-
+```
 C. Scripts de Calidad y Auditoría (OLTP):
-
+```text
 python validar_calidad.py  # Control de calidad y consistencia lógica de saldos
 python auditoria_index.py  # Análisis de eficiencia de índices en PostgreSQL
 python backup_data.py      # Generación automática de respaldos lógicos (.sql)
-
+```
 
 
 ##  Modelos de la Base de Datos
