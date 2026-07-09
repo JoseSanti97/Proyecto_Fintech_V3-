@@ -9,9 +9,11 @@ Descripción de la Problemática a resolver: Se tiene la necesidad de una plataf
 Este proyecto representa el escalamiento y evolución de una plataforma Fintech transaccional pura (OLTP) hacia un ecosistema analítico e híbrido de datos masivos. Se diseñó e implementó un **Data Lakehouse local** bajo la **Arquitectura Medallion**, acoplando la ingesta automatizada de datos, gobierno de datos financiero, procesamiento distribuido y un modelo predictivo de Machine Learning (*Credit Scoring*) para la asignación inteligente de líneas de crédito.
 
 [Sistema Transaccional OLTP: Docker + PostgreSQL]
+
 │
 ▼  (Ingesta mediante JDBC / PySpark)
 [Data Lakehouse: Arquitectura Medallion (Storage/)]
+
 ├── Layer 1: Bronze (Ingesta Inmutable en Parquet)
 ├── Layer 2: Silver (Limpieza, Gobierno y Data Masking)
 └── Layer 3: Gold   (Data Marts de KPI y Predicciones de ML)
