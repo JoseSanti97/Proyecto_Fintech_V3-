@@ -2,11 +2,11 @@
 
 ## Resumen Ejecutivo
 
-Ecosistema Fintech End-to-End: Arquitectura Lakehouse corporativa diseñada para la ingesta, anonimización, procesamiento masivo y analítica predictiva de datos financieros simulando entornos productivos reales
+Ecosistema Fintech End-to-End: Arquitectura Lakehouse diseñada para la ingesta, anonimización, procesamiento masivo y analítica predictiva de datos financieros simulando entornos reales
 
 Descripción de la Problemática a resolver: Se tiene la necesidad de una plataforma para gestionar cuentas digitales, tarjetas y préstamos. Es necesario poder llevar acabo eficientemente las transacciones y la gestión de la información perteneciente a los clientes. 
 
-Este proyecto representa el escalamiento y evolución de una plataforma Fintech transaccional pura (OLTP) hacia un ecosistema analítico e híbrido de datos masivos. Se diseñó e implementó un **Data Lakehouse local** bajo la **Arquitectura Medallion**, acoplando la ingesta automatizada de datos, gobierno de datos financiero, procesamiento distribuido y un modelo predictivo de Machine Learning (*Credit Scoring*) para la asignación inteligente de líneas de crédito.
+Este proyecto representa el escalamiento y evolución de una plataforma Fintech transaccional pura (OLTP) hacia un ecosistema analítico e híbrido de datos masivos. Se diseñó e implementó un **Data Lakehouse local** bajo la **Arquitectura Medallion**, acoplando la ingesta automatizada de datos, gobierno de datos financiero, procesamiento distribuido y un modelo predictivo de Machine Learning para la asignación inteligente de líneas de crédito.
 
 ```mermaid
 graph TD
@@ -37,8 +37,8 @@ graph TD
 
 ### Pilares Fundamentales del Diseño:
 1. **Procesamiento de Big Data con Spark:** Sustitución de queries relacionales tradicionales por transformaciones optimizadas distribuidas en **PySpark** sobre archivos de formato columnar **Apache Parquet**.
-2. **Gobierno y Seguridad Financiera (Data Masking):** Mitigación de riesgos de ciberseguridad mediante la anonimización automática de Información Personal Identificable (PII) en la capa Silver. Los correos electrónicos se cifran parcialmente (`xxxxxx@email.com`) y los teléfonos se transforman en máscaras (`XXXXXX`) bajo normativas de cumplimiento regulatorio bancario.
-3. **Orquestación Centralizada:** Automatización unificada a través de `main.py`, el cual levanta los modelos en SQLAlchemy, inyecta los lotes sintéticos controlados en memoria (evitando latencia de red) y activa secuencialmente las fases analíticas de Spark.
+2. **Gobierno y Seguridad Financiera (Data Masking):** Mitigación de riesgos de ciberseguridad mediante la anonimización automática de Información Personal Identificable (PII) en la capa Silver. Los correos electrónicos se cifran parcialmente (`xxxxxx@email.com`) y los teléfonos se transforman en máscaras (`XXXXXX`).
+3. **Orquestación Centralizada:** Automatización unificada a través de `main.py`, el cual levanta los modelos en SQLAlchemy, inyecta los lotes sintéticos en memoria (evitando latencia de red) y activa secuencialmente las fases analíticas de Spark.
 
 El diseño está optimizado bajo la Forma Normal de Boyce-Codd (BCNF) para evitar anomalías transaccionales, y cuenta con mecanismos de control internos (*Triggers* y *Procediminetos Almacenados*) encargados de la integridad financiera del sistema.
 
