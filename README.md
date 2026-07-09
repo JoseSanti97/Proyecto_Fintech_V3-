@@ -179,7 +179,7 @@ python read_parquet.py silver dim_clientes
 # Inspeccionar el Data Mart consolidado de préstamos en Gold
 python read_parquet.py gold kpi_prestamos
 
-# Inspeccionar las predicciones financieras finales de Inteligencia Artificial
+# Inspeccionar las predicciones financieras
 python read_parquet.py gold ml_credit_score
 
 B. Exportación de Resultados a Formato CSV
