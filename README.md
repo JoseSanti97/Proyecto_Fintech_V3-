@@ -8,17 +8,30 @@ Descripción de la Problemática a resolver: Se tiene la necesidad de una plataf
 
 Este proyecto representa el escalamiento y evolución de una plataforma Fintech transaccional pura (OLTP) hacia un ecosistema analítico e híbrido de datos masivos. Se diseñó e implementó un **Data Lakehouse local** bajo la **Arquitectura Medallion**, acoplando la ingesta automatizada de datos, gobierno de datos financiero, procesamiento distribuido y un modelo predictivo de Machine Learning (*Credit Scoring*) para la asignación inteligente de líneas de crédito.
 
-```
-[Sistema Transaccional OLTP: Docker + PostgreSQL]
-│
-▼  (Ingesta mediante JDBC / PySpark)
-[Data Lakehouse: Arquitectura Medallion (Storage/)]
-├── Layer 1: Bronze (Ingesta Inmutable en Parquet)
-├── Layer 2: Silver (Limpieza, Gobierno y Data Masking)
-└── Layer 3: Gold   (Data Marts de KPI y Predicciones de ML)
-│
-▼
-[Machine Learning: PySpark MLlib (Random Forest)] ──> Inferencia y Líneas de Crédito
+```mermaid
+graph TD
+    subgraph OLTP [Entorno Operacional]
+        DB[(PostgreSQL en Docker)]
+    end
+
+    subgraph Lakehouse [Data Lakehouse: Arquitectura Medallion]
+        B[Layer 1: Bronze <br> Ingesta Inmutable Parquet] --> S[Layer 2: Silver <br> Limpieza, Gobierno y Data Masking PII]
+        S --> G[Layer 3: Gold <br> Data Marts de KPI y Analítica]
+    end
+
+    subgraph ML [Capa de Inteligencia]
+        RF[PySpark MLlib: Random Forest]
+    end
+
+    DB -->|Ingesta JDBC / PySpark| B
+    G -->|Consumo de Features| RF
+    RF -->|Inferencia y Scoring| G
+
+    style DB fill:#336791,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#b87333,stroke:#fff,stroke-width:2px,color:#fff
+    style S fill:#aaa9ad,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#ffd700,stroke:#fff,stroke-width:2px,color:#000
+    style RF fill:#ff4b4b,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
 
