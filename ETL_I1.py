@@ -87,7 +87,6 @@ def transform():
         logger.error(f"Error durante la transformación: {error}", exc_info=True)
         raise error
     
-bloques_transformados = transform()
 
 def validate_checkpoint(bloques_transformados, expect_col_count, expect_row_count):
     logger.info("Inicializando Validación")
@@ -142,6 +141,7 @@ def load(bloques_transformados):
         logger.error(f"Error crítico durante la carga a la capa Gold: {error}", exc_info=True)
         raise error
 
+bloques_transformados = transform()
 load(bloques_transformados)
 
 
