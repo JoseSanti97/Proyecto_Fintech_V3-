@@ -65,7 +65,7 @@ def ejecutar_credit_score():
                 # Variable de Control: Frecuencia de uso anual
                 _count("id_transaccion").alias("frecuencia_uso")
             )
-            # Variable 2: Volumen neto financiero (Ingresos vs Egresos)
+            # Variable 2: Ingresos vs Egresos
             .withColumn(
                 "volumen_total_ingresos_vs_egresos", 
                 col("total_ingresos") - col("total_egresos")
@@ -79,7 +79,6 @@ def ejecutar_credit_score():
             when(col("volumen_total_ingresos_vs_egresos") > 0, 1).otherwise(0)
         )
 
-        # Vectorización 
         input_cols = [
             "saldo_promedio_ultimos_90_dias", 
             "volumen_total_ingresos_vs_egresos", 
@@ -91,7 +90,7 @@ def ejecutar_credit_score():
 
 
         # ENTRENAMIENTO DEL ALGORITMO CLASIFICADOR 
-        logger.info("Entrenando algoritmo Random Forest Classifier...")
+        logger.info("Entrenando algoritmo Random Forest Classifier")
         rf = RandomForestClassifier(featuresCol="features", labelCol="label", numTrees=25, maxDepth=5, seed=42)
         rf_model = rf.fit(df_vectorized)
 
