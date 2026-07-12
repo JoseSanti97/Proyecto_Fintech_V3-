@@ -126,7 +126,6 @@ Proyecto_Fintech/
 ├── ETL_P2.py                  # Pipeline ETL  No. 2
 ├── ELT_P1.py                  # Pipeline ELT  No. 1
 ├── ELT_P2.py                  # Pipeline ELT  No. 2
-├── parquet_to_csv.py          # Conversión de parquet a csv para posterior análisis
 ├── fintech_pipeline.log
 └── README.md                  # Documentación
 
