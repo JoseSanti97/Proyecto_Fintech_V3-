@@ -98,7 +98,7 @@ Proyecto_Fintech/
 │       ├── auditoria_index.py
 │       └── backup_data.py
 │
-├── main.py                     # Roordinador
+├── main.py                     # Coordinador
 ├── requirements.txt            # Configuración global
 └── README.md                   # Documentación 
 
