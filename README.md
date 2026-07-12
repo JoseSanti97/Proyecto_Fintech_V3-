@@ -122,10 +122,10 @@ Proyecto_Fintech/
 ├── reportes_kpi.py            # Obtención de indicadores mediante SQL tradicional
 ├── backup_data.py             # Automatiza respaldos lógicos de la base de datos
 ├── requirements.txt           # Dependencias empaquetadas del proyecto
-├── ETL_1.py                   # Obervar .parquet de la capa / GOLD y / SILVER
-├── ETL_2.py                   # Obervar .parquet de la capa / GOLD y / SILVER
-├── ELT_1.py                   # Dependencias empaquetadas del proyecto
-├── ELT_1.py                   # Dependencias empaquetadas del proyecto
+├── ETL_P1.py                  # Pipeline ETL  No. 1
+├── ETL_P2.py                  # Pipeline ETL  No. 2
+├── ELT_P1.py                  # Pipeline ELT  No. 1
+├── ELT_P2.py                  # Pipeline ELT  No. 2
 ├── parquet_to_csv.py          # Conversión de parquet a csv para posterior análisis
 ├── fintech_pipeline.log
 └── README.md                  # Documentación
