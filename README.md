@@ -73,61 +73,34 @@ Enlace a la primera versión del proyecto: https://github.com/JoseSanti97/Proyec
 ```text
 Proyecto_Fintech/
 │
-├── generador/
-│   ├── conexion.py          # Módulo de enlace de red encapsulado para Docker
-│   ├── modelos.py           # Definición de las relaciones y tipos de datos en SQLAlchemy
-│   └── poblador_masivo.py   # Motor de simulación e inyección de datos (Faker)
+├── generador/                  
+├── scripts_sql/               
+├── storage/                
 │
-├── scripts_sql/
-│   ├── 01_schema.sql          # Definición de las relaciones con tipos de datos
-│   ├── 02_constraints.sql     # Restricciones de integridad referencial, llaves y unicidad 
-│   ├── 03_triggers.sql        # Triggers de seguridad (Garantiza saldos mínimos en transferencias)
-│   ├── 04_procedures.sql      # Procedimientos almacenados para la lógica bancaria automatizada
-│   ├── 05_metrics_queries.sql # Consultas de auditoría, analítica y métricas financieras de negocio
-│   └── 06_escenarios.sql      # Implementación de Roles y Vistas
+├── pipelines/                  
+│   ├── lakehouse/
+│   │   └── pipeline_lakehouse.py   # Tu pipeline principal de PySpark
+│   ├── etl_traditional/
+│   │   ├── ETL_P1.py
+│   │   └── ETL_P2.py
+│   └── elt_traditional/
+│       ├── ELT_P1.py
+│       └── ELT_P2.py
 │
-├── storage/                   # DIRECTORIO DEL DATA LAKEHOUSE [Acceso: Solo Data Engineers]
-│   ├── bronze/                # Datos extraídos de Docker 
-│   │   ├── cliente/             ↳ Guardado en formato .parquet
-│   │   ├── cliente_tel/
-│   │   ├── beneficiario/
-│   │   ├── beneficiario_tel/
-│   │   ├── cuenta/
-│   │   ├── tarjeta/
-│   │   ├── prestamo/
-│   │   └── transaccion/
-│   │
-│   ├── silver/                   # Datos limpios, estructurados y anonimizados [Acceso: Data Engineers, Data Analyst y Data Scientists]
-│   │   ├── dim_clientes/
-│   │   ├── dim_beneficiarios/
-│   │   ├── dim_cuentas/      
-│   │   ├── dim_tarjetas/             
-│   │   ├── pivot_model_credit/         
-│   │   ├── dim_fact_prestamos/  
-│   │   └── dim_fact_transacciones/ # Datos e información de operaciones financieras, cuentas
-│   │
-│   └── gold/                      # Agregaciones listas para reportes ejecutivos [Acceso: Analistas de Negocio, ML/IA Engineers y Data Scientists]
-│       ├── kpi_capital            # ↳ Datos pre-calculados por Spark
-│       ├── kpi_movimientos/       # Conexión con alguna herramienta de BI
-│       ├── kpi_prestamos/
-│       ├── ml_credit_score_csv/   
-│       └── ml_credit_score/       # Asignación de crédito basada en el comportamiento
+├── src/                        # Lógica de negocio, analítica y utilidades
+│   ├── analytics/
+│   │   └── reportes_kpi.py
+│   ├── data_quality/
+│   │   └── validar_calidad.py
+│   ├── machine_learning/
+│   │   └── modelo_ml.py
+│   └── utils/
+│       ├── auditoria_index.py
+│       └── backup_data.py
 │
-│
-├── main.py                    # Coordinador del despliegue y automatización
-├── pipeline_lakehouse.py      # Pipeline de PySpark para la Arquitectura Medallion
-├── modelo_ml.py               # Random Forest Algorithm
-├── auditoria_index.py         # Módulo de auditoría de índices en PostgreSQL
-├── validar_calidad.py         # Pruebas de calidad y reglas de negocio
-├── reportes_kpi.py            # Obtención de indicadores mediante SQL tradicional
-├── backup_data.py             # Automatiza respaldos lógicos de la base de datos
-├── requirements.txt           # Dependencias empaquetadas del proyecto
-├── ETL_P1.py                  # Pipeline ETL  No. 1
-├── ETL_P2.py                  # Pipeline ETL  No. 2
-├── ELT_P1.py                  # Pipeline ELT  No. 1
-├── ELT_P2.py                  # Pipeline ELT  No. 2
-├── fintech_pipeline.log
-└── README.md                  # Documentación
+├── main.py                     # Roordinador
+├── requirements.txt            # Configuración global
+└── README.md                   # Documentación 
 
 ```
 
