@@ -79,7 +79,7 @@ Proyecto_Fintech/
 │
 ├── pipelines/                  
 │   ├── lakehouse/
-│   │   └── pipeline_lakehouse.py   # Tu pipeline principal de PySpark
+│   │   └── pipeline_lakehouse.py   #Pipeline principal de PySpark
 │   ├── etl_traditional/
 │   │   ├── ETL_P1.py
 │   │   └── ETL_P2.py
