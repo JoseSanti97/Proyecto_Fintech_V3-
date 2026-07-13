@@ -6,7 +6,7 @@ Ecosistema Fintech End-to-End: Arquitectura Lakehouse diseñada para la ingesta,
 
 Descripción de la Problemática a resolver: Se tiene la necesidad de una plataforma para gestionar cuentas digitales, tarjetas y préstamos. Es necesario poder llevar acabo eficientemente las transacciones y la gestión de la información perteneciente a los clientes. 
 
-Este proyecto representa el escalamiento y evolución de una plataforma Fintech transaccional pura (OLTP) hacia un ecosistema analítico e híbrido de datos masivos. Se diseñó e implementó un **Data Lakehouse local** bajo la **Arquitectura Medallion**, acoplando la ingesta automatizada de datos, gobierno de datos financiero, procesamiento distribuido y un modelo predictivo de Machine Learning para la asignación inteligente de líneas de crédito.
+Este proyecto representa el escalamiento y evolución de una plataforma Fintech transaccional (OLTP) hacia un ecosistema analítico híbrido de datos. Se diseñó e implementó un **Data Lakehouse local** bajo la **Arquitectura Medallion**, acoplando la ingesta automatizada de datos, gobierno de datos financiero, procesamiento distribuido y un modelo predictivo de Machine Learning para la asignación inteligente de líneas de crédito.
 
 ```mermaid
 graph TD
@@ -36,11 +36,12 @@ graph TD
 
 
 ### Pilares Fundamentales del Diseño:
-1. **Procesamiento de Big Data con Spark:** Sustitución de queries relacionales tradicionales por transformaciones optimizadas distribuidas en **PySpark** sobre archivos de formato columnar **Apache Parquet**.
-2. **Gobierno y Seguridad Financiera (Data Masking):** Mitigación de riesgos de ciberseguridad mediante la anonimización automática de Información Personal Identificable (PII) en la capa Silver. Los correos electrónicos se cifran parcialmente (`xxxxxx@email.com`) y los teléfonos se transforman en máscaras (`XXXXXX`).
-3. **Orquestación Centralizada:** Automatización unificada a través de `main.py`, el cual levanta los modelos en SQLAlchemy, inyecta los lotes sintéticos en memoria (evitando latencia de red) y activa secuencialmente las fases analíticas de Spark.
-
-El diseño está optimizado bajo la Forma Normal de Boyce-Codd (BCNF) para evitar anomalías transaccionales, y cuenta con mecanismos de control internos (*Triggers* y *Procediminetos Almacenados*) encargados de la integridad financiera del sistema.
+1. **Procesamiento con Spark:** Sustitución de queries relacionales tradicionales por transformaciones optimizadas distribuidas en **PySpark** sobre archivos de formato columnar **Apache Parquet**.
+2. Diseño de Arquitectura: Diseñé e implementé un Data Lakehouse local bajo la arquitectura Medallion utilizando Docker y PostgreSQL como entorno OLTP transaccional, escalándolo hacia un entorno analítico distribuido.
+3. **Gobierno y Seguridad Financiera (Data Masking):** Mitigación de riesgos de ciberseguridad mediante la anonimización automática de Información Personal Identificable (PII) en la capa Silver. Los correos electrónicos se cifran parcialmente (`xxxxxx@email.com`) y los teléfonos se transforman en máscaras (`XXXXXX`).
+4. **Orquestación Centralizada:** Automatización unificada a través de `main.py`, el cual levanta los modelos en SQLAlchemy, inyecta los lotes sintéticos en memoria (evitando latencia de red) y activa secuencialmente las fases analíticas de Spark.
+5. Habilitación de IA y BI: Consolidación en la capa Gold para el entrenamiento de un modelo predictivo (Random Forest con PySpark MLlib) con un AUC.
+6. El diseño está optimizado bajo la Forma Normal de Boyce-Codd (BCNF) para evitar anomalías transaccionales, y cuenta con mecanismos de control internos (*Triggers* y *Procediminetos Almacenados*) encargados de la integridad financiera del sistema.
 
 Tecnologías clave: 
 * **Lenguaje Principal:** Python 3.13
