@@ -159,29 +159,19 @@ python main.py
 ```
 
 Módulos Auxiliares y Explotación de Datos
-Una vez que el orquestador finalice con éxito, puedes auditar, leer y exportar la información del Lakehouse mediante la consola:
+Una vez que el orquestador finalice con éxito, puedes auditar, y exportar la información del Lakehouse mediante la consola:
 
-A. Inspección Dinámica de Archivos Parquet
-Puedes leer cualquier tabla analítica de las capas Silver o Gold pasando la capa y el nombre como argumentos en la terminal:
 
-# Inspeccionar dimensiones de clientes anonimizados en Silver
-```text
-python read_parquet.py silver dim_clientes
-```
-# Inspeccionar el Data Mart consolidado de préstamos en Gold
-```text
-python read_parquet.py gold kpi_prestamos
-```
 # Inspeccionar las predicciones financieras
 ```text
 python read_parquet.py gold ml_credit_score
 ```
-B. Exportación de Resultados a Formato CSV
+A. Exportación de Resultados a Formato CSV
 Para análisis en herramientas externas como MS Excel, convierte cualquier tabla Parquet a un archivo .csv plano y unificado:
 ```text
-python parquet_to_csv.py gold ml_credit_score
+python ELT_P1.py, ELT_P2.py, ml_credit_score, ETL_P1.py, ETL_P2.py
 ```
-C. Scripts de Calidad y Auditoría (OLTP):
+B. Scripts de Calidad y Auditoría (OLTP):
 ```text
 python validar_calidad.py  # Control de calidad y consistencia lógica de saldos
 python auditoria_index.py  # Análisis de eficiencia de índices en PostgreSQL
