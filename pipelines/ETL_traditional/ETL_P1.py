@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent
 SILVER_ROOT = ROOT / "storage" / "silver"
 GOLD_ROOT = ROOT / "storage" / "gold"
 
-spark = SparkSession.builder.appName("ETL_I1").getOrCreate() # Sesión interna de Spark
+spark = SparkSession.builder.appName("ETL_P1").getOrCreate() # Sesión interna de Spark
 
     
 
